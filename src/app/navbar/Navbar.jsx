@@ -6,17 +6,17 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <ul>
-                <li><a href="/universal">News</a></li>
-                <li><a href="/universal">Opinion</a></li>
-                <li><a href="/universal">Science</a></li>
-                <li><a href="/universal">Life</a></li>
-                <li><a href="/universal">Travel</a></li>
-                <li><a href="/universal">Moneys</a></li>
-                <li><a href="/universal">Art & Design</a></li>
-                <li><a href="/universal">Sports</a></li>
-                <li><a href="/universal">People</a></li>
-                <li><a href="/universal">Health</a></li>
-                <li><a href="/universal">Health</a></li>
+                <li><Link href="/universal">News</Link></li>
+                <li><Link href="/universal">Opinion</Link></li>
+                <li><Link href="/universal">Science</Link></li>
+                <li><Link href="/universal">Life</Link></li>
+                <li><Link href="/universal">Travel</Link></li>
+                <li><Link href="/universal">Moneys</Link></li>
+                <li><Link href="/universal">Art & Design</Link></li>
+                <li><Link href="/universal">Sports</Link></li>
+                <li><Link href="/universal">People</Link></li>
+                <li><Link href="/universal">Health</Link></li>
+                <li><Link href="/universal">Health</Link></li>
             </ul>
         </div>
     )

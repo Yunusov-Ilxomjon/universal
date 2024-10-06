@@ -1,12 +1,13 @@
 import React from 'react'
 import './universal.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Universal = () => {
   return (
     <div className='universal-container'>
 
-      {/* --------------------------- */}
+
 
       <div className="moto-container">
 
@@ -56,13 +57,13 @@ const Universal = () => {
 
           <img width={15} height={15} src="/universal-image/time.png" alt="" />
           <p>Aug 6, 10:23 pm</p>
-          &nbsp;
+
           <img width={15} height={15} src="/universal-image/heart.png" alt="" />
           <p>800</p>
-          &nbsp;
+
           <img width={15} height={15} src="/universal-image/comment.png" alt="" />
           <p>19</p>
-          &nbsp;
+
 
           <button className='share-btn'>
             <img width={20} height={20} src="/universal-image/share.png" alt="" />142 Shares
@@ -70,7 +71,6 @@ const Universal = () => {
         </div>
       </div>
 
-      {/* ----------------------- */}
 
       <div className="text-container1">
         <p style={{
@@ -99,9 +99,9 @@ const Universal = () => {
           }}>82 articles</h2>
 
           <div className="messenjer">
-            <a href="#"><img src="/footer-image/facebook.png" alt="" width={40} /></a>
-            <a href="#"><img src="/footer-image/twitter.png" alt="" width={40} /></a>
-            <a href="#"><img src="/footer-image/instagram.png" alt="" width={40} /></a>
+            <Link href="#"><img src="/footer-image/facebook.png" alt="" width={40} /></Link>
+            <Link href="#"><img src="/footer-image/twitter.png" alt="" width={40} /></Link>
+            <Link href="#"><img src="/footer-image/instagram.png" alt="" width={40} /></Link>
           </div>
 
           <button style={{
@@ -116,7 +116,6 @@ const Universal = () => {
 
       </div>
 
-      {/* ------------------------ */}
 
       <div className="text-container2">
         <h1 style={{
@@ -147,7 +146,6 @@ const Universal = () => {
 
       </div>
 
-      {/* ---------------------------- */}
 
       <div className="universal-image">
         <img width={1140} height={555} src="https://geographical.co.uk/wp-content/uploads/somalaya-mountain-range-title.jpg" alt="" />
@@ -194,8 +192,6 @@ const Universal = () => {
         </div>
 
       </div>
-
-      {/* ------------------------------ */}
 
       <div className="text-container3">
         <p style={{
@@ -265,14 +261,8 @@ const Universal = () => {
 
         </div>
 
-
-
-
-
-
       </div>
 
-      {/* -------------- */}
 
       <div className="text-container4">
         <h1 style={{
@@ -372,10 +362,8 @@ const Universal = () => {
 
         </div>
 
-
       </div>
 
-      {/* -------------------------- */}
 
 
       <div className="universal-images">
@@ -423,7 +411,7 @@ const Universal = () => {
               fontSize: '16px',
               color: '#262D33',
               marginTop: '15px'
-            }}>At the Mouth of the Mississippi, a Weird and Fragile Beauty</h2>
+            }}>At the Mouth of the Mississippi, a Weird and Fragile Beauty</h2>
 
           <div className="wievs2">
             <img src="/universal-image/eye.png" width={15} height={15} />
@@ -487,7 +475,7 @@ const Universal = () => {
               fontSize: '16px',
               color: '#262D33',
               marginTop: '15px'
-            }}>How to Get by in a Country if You Don’t Know the Language</h2>
+            }}>How to Get by in a Country if You Don't Know the Language</h2>
 
           <div className="wievs2">
             <img src="/universal-image/eye.png" width={15} height={15} />
@@ -510,7 +498,6 @@ const Universal = () => {
 
       </div>
 
-      {/* ------add comments------------ */}
 
       <div className="add-comments">
 
@@ -538,7 +525,9 @@ const Universal = () => {
             marginLeft: '30px',
             gap: '10px',
           }}>
-            <img src="/universal-image/pencil.png" alt="" width={20} />
+            <img style={{
+              width: '20px'
+            }} src="/universal-image/pencil.png" alt="" />
             Add comment
           </button>
 
@@ -594,11 +583,6 @@ const Universal = () => {
           </div>
 
 
-
-
-
-
-
         </div>
 
         <div style={{
@@ -649,11 +633,10 @@ const Universal = () => {
 
             </div>
 
-
           </div>
 
-
         </div>
+
 
         <div className="people-comments">
 
@@ -757,11 +740,6 @@ const Universal = () => {
           </div>
 
 
-
-
-
-
-
         </div>
 
         <button className="loadmore">
@@ -770,7 +748,6 @@ const Universal = () => {
 
       </div>
 
-      {/* ------what do youthink------------ */}
 
       <div className="think">
         <div className="think-page">
@@ -781,37 +758,34 @@ const Universal = () => {
             }} src="/universal-image/woman1.webp" width={75} />
           </div>
 
-            <div className="comment-think">
-              <h1 style={{
-                fontSize: '20px',
-                color: '#262D33',
-                marginTop: '30px'
-              }}>What do you think?</h1>
-              <textarea style={{
-                width: '595px',
-                height: '130px',
-                backgroundColor: 'white',
-                marginTop: '15px'
-              }}></textarea>
+          <div className="comment-think">
+            <h1 style={{
+              fontSize: '20px',
+              color: '#262D33',
+              marginTop: '30px'
+            }}>What do you think?</h1>
+            <textarea style={{
+              width: '595px',
+              height: '130px',
+              backgroundColor: 'white',
+              marginTop: '15px'
+            }}></textarea>
 
-              <button style={{
-                    width: '115px',
-                    height: '40px',
-                    backgroundColor: '#4592FF',
-                    marginTop: '15px',
-                    borderRadius: '30px',
-                    color: 'white'
-              }}>Submit</button>
-            </div>
-
+            <button style={{
+              width: '115px',
+              height: '40px',
+              backgroundColor: '#4592FF',
+              marginTop: '15px',
+              borderRadius: '30px',
+              color: 'white'
+            }}>Submit</button>
+          </div>
 
 
         </div>
 
 
       </div>
-
-
 
 
     </div>

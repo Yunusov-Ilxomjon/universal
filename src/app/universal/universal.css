@@ -7,16 +7,13 @@
 .universal-container {
     width: 1366px;
     height: 5200px;
-    /* border: 1px solid black; */
     margin: auto;
 }
 
 .moto-container {
     position: relative;
-    /* Pseudo-elementni joylashtirish uchun */
     width: 1366px;
     height: 590px;
-    /* top: 190px; */
     padding: 0 210px;
     gap: 0px;
     background: url(https://can-am.brp.com/content/dam/connectedassets/tnt/global-na/my25/photos/lifestyle/ONRD-2WV-MY25-PULSE-FAM-Beauty-CANAMDAY20327-RGB-4096x2304.jpg) no-repeat center center/cover;
@@ -30,7 +27,6 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    /* Yarim shaffof overlay */
     z-index: 1;
 }
 
@@ -38,10 +34,8 @@
     position: relative;
     z-index: 2;
     top: 60px;
-    /* Overlay ustiga chiqish uchun */
     width: 900px;
     height: 30px;
-    /* border: 1px solid white; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,15 +54,12 @@
 a :hover {
     transform: scale(1.2) !important;
     transition: all 1s ease-in-out;
-    /* color: aqua; */
 }
 
-/* ------------------- */
 
 .share {
     width: 500px;
     height: 45px;
-    /* border: 1px solid red; */
     margin-top: 100px;
     color: white !important;
     display: flex;
@@ -98,20 +89,15 @@ a :hover {
     padding: 60px 210px 15px 210px;
     line-height: 1.6;
     font-family: Arial, sans-serif;
-    /* border: 1px solid green; */
     position: absolute;
 }
 
 .dropcap {
     float: left;
     font-size: 100px;
-    /* Size of the drop cap */
     line-height: 75px;
-    /* Line height for the drop cap */
     margin-right: 8px;
-    /* Space between the drop cap and the text */
     color: #1E90FF;
-    /* Color of the drop cap */
 }
 
 .text-card {
@@ -121,7 +107,6 @@ a :hover {
     left: 892px;
     gap: 0px;
     opacity: 0px;
-    /* border: 1px solid black; */
     position: relative;
     top: -400px;
     left: 650px;
@@ -143,14 +128,11 @@ a :hover {
     margin-top: 30px;
 }
 
-/* --------------------- */
 
 .text-container2 {
     width: 1000px;
     height: 450px;
     padding: 0 210px;
-    /* border: 1px solid rgb(34, 0, 128); */
-    /* background-color: aqua; */
     margin-top: 345px;
 
 }
@@ -158,17 +140,14 @@ a :hover {
 .universal-image {
     width: 1140px;
     height: 625px;
-    /* border: 1px solid gray; */
     margin: 0 auto;
 }
 
-/* --------------- */
 
 .text-container3 {
     width: 1000px;
     height: 550px;
     padding: 0 210px;
-    /* border: 1px solid rgb(34, 0, 128); */
     position: absolute;
 }
 
@@ -176,7 +155,6 @@ a :hover {
     width: 263px;
     height: 430px;
     opacity: 0px;
-    /* border: 1px solid blue; */
     position: relative;
     top: -450px;
     left: 700px;
@@ -185,7 +163,6 @@ a :hover {
 .wievs {
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
     height: 25px;
     gap: 5px;
     margin-top: 30px;
@@ -199,18 +176,14 @@ a :hover {
 
 }
 
-/* ------------------ */
 
 .text-container4 {
     width: 1000px;
     height: 800px;
     padding: 0 210px;
-    /* border: 1px solid rgb(34, 0, 128); */
-    /* position: absolute; */
     margin-top: 550px;
 }
 
-/* --------------------- */
 
 .support-btn {
     display: flex;
@@ -258,7 +231,6 @@ a :hover {
 .else-btn {
     width: 40px;
     height: 40px;
-    /* border: 1px solid gray; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -266,12 +238,10 @@ a :hover {
     line-height: 100%;
 }
 
-/* --------------- */
 
 .universal-images {
     width: 1366px;
     height: 425px;
-    /* border: 1px solid blue; */
     background-color: #F5F5F5;
     display: flex;
     justify-content: center;
@@ -282,7 +252,6 @@ a :hover {
 .universal-images-card {
     height: 280px;
     width: 265px;
-    /* border: 1px solid black; */
     margin-top: 60px;
 
 }
@@ -290,7 +259,6 @@ a :hover {
 .wievs2 {
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
     height: 25px;
     gap: 5px;
     margin-top: 20px;
@@ -303,12 +271,10 @@ a :hover {
     background-color: rgb(246, 240, 240);
 }
 
-/* -------------------- */
 
 .add-comments {
     width: 1366px;
     height: 1070px;
-    /* border: 1px solid tomato; */
     padding: 0 210px;
     display: flex;
     flex-direction: column;
@@ -338,7 +304,6 @@ a :hover {
     display: flex;
     border-top: 1px solid gray;
     padding: 30px 0;
-    /* margin-top: 100px; */
 
 }
 
@@ -346,7 +311,6 @@ a :hover {
 .ryanhall-image {
     height: 205px;
     width: 80px;
-    /* border: 1px solid red; */
 }
 
 .ryanhall-info {
@@ -379,12 +343,10 @@ a :hover {
 
 }
 
-/* ------think------- */
 
 .think {
     width: 1366px;
     height: 350px;
-    /* border: 1px solid black; */
     padding: 30px 210px;
 }
 
@@ -396,11 +358,10 @@ a :hover {
 
 }
 
-.think-image{
+.think-image {
     width: 120px;
     height: 290px;
-    /* border: 1px solid green; */
     display: flex;
-   justify-content: center;
-   align-items: first baseline;
+    justify-content: center;
+    align-items: first baseline;
 }

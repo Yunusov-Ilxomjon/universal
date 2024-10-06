@@ -42,7 +42,6 @@ export default function Home() {
 
             </div>
 
-            {/* ----------------------------------------------- */}
 
             <div className="home-container-video"></div>
 
@@ -51,7 +50,6 @@ export default function Home() {
                 <div className="text-card"></div>
             </div>
 
-            {/* ----------------------------------------------- */}
 
             <div className="cars-info">
 
@@ -164,7 +162,6 @@ export default function Home() {
 
                 </div>
 
-                {/* ---------------------------------------------- */}
 
                 <div className="cars-card-right">
                     <div className="columns" style={{
@@ -245,7 +242,6 @@ export default function Home() {
 
             </div>
 
-            {/* ------------------------------------ */}
 
             <div className="flower">
                 <h1 style={{
@@ -267,7 +263,6 @@ export default function Home() {
                 }}>Read more</button>
             </div>
 
-            {/* --------------------------------------------- */}
 
             <div className="news">
 
@@ -320,7 +315,6 @@ export default function Home() {
 
                     </div>
 
-                    {/* -------------------------------------- */}
 
                     <div className="news-cards">
                         <Image src="/section-image/bread.jpg" alt="" width={336} height={195} />
@@ -365,7 +359,6 @@ export default function Home() {
 
                     </div>
 
-                    {/* ------------------------------------- */}
 
                     <div className="news-cards">
                         <Image src="/section-image/flower2.jpg" alt="" width={336} height={195} />
@@ -410,7 +403,6 @@ export default function Home() {
 
                     </div>
 
-                    {/* ------------------------------------ */}
 
                     <div className="news-cards">
                         <Image src="/section-image/swim.jpg" alt="" width={336} height={195} />
@@ -455,7 +447,6 @@ export default function Home() {
 
                     </div>
 
-                    {/* ------------------------------ */}
 
                     <div className="news-cards">
                         <Image src="/section-image/tree.jpg" alt="" width={336} height={195} />
@@ -501,7 +492,6 @@ export default function Home() {
                     </div>
 
 
-                    {/* ------------------------------ */}
 
                     <div className="news-cards">
                         <Image src="/section-image/universitet.jpg" alt="" width={336} height={195} />
@@ -546,20 +536,9 @@ export default function Home() {
 
                     </div>
 
-                    {/* ------------------------------- */}
-
-
-
-
-
-
-
-
-
 
                 </div>
 
-                {/* ------------------------------------------- */}
 
                 <div className="news-card-right">
                     <div className="recommended">
@@ -568,7 +547,6 @@ export default function Home() {
                         }}>RECCOMENDED FOR YOU</h1>
                     </div>
 
-                    {/* --------------------------- */}
 
                     <div className="recommend-cards">
                         <Image src="/section-image/reccomend1.jpg" alt="" width={60} height={60} />
@@ -585,7 +563,6 @@ export default function Home() {
                     </div>
 
 
-                    {/* --------------------------- */}
 
                     <div className="recommend-cards">
                         <Image src="/section-image/reccomend2.jpg" alt="" width={60} height={60} />
@@ -602,7 +579,6 @@ export default function Home() {
                     </div>
 
 
-                    {/* --------------------------- */}
 
                     <div className="recommend-cards">
                         <Image src="/section-image/reccomend3.jpg" alt="" width={60} height={60} />
@@ -618,7 +594,6 @@ export default function Home() {
                         </div>
                     </div>
 
-                    {/* --------------------------- */}
 
                     <div className="recommend-cards">
                         <Image src="/section-image/reccomend4.jpg" alt="" width={60} height={60} />
@@ -634,7 +609,6 @@ export default function Home() {
                         </div>
                     </div>
 
-                    {/* --------------------------- */}
 
                     <div className="recommend-cards">
                         <Image src="/section-image/reccomend5.jpg" alt="" width={60} height={60} />
@@ -651,7 +625,6 @@ export default function Home() {
                     </div>
 
 
-                    {/* --------------------------- */}
 
                     <div className="recommend-cards">
                         <Image src="/section-image/reccomend6.jpg" alt="" width={60} height={60} />
@@ -668,8 +641,6 @@ export default function Home() {
                     </div>
 
 
-
-                    {/* --------------------------- */}
 
                     <div className="recommend-cards">
                         <Image src="/section-image/reccomend7.jpg" alt="" width={60} height={60} />
@@ -699,10 +670,8 @@ export default function Home() {
                     </button>
 
                 </div>
-                {/* ----------------------------------------------- */}
             </div>
 
-            {/* ------------------------------------------- */}
 
             <div className="reader">
 
@@ -724,7 +693,6 @@ export default function Home() {
                         }}>Photographer</p>
                     </div>
 
-                    {/* -------------- */}
                     <div className="reader-center">
                         <h1 style={{
                             fontSize: '40px',
@@ -733,7 +701,6 @@ export default function Home() {
                         }}>Readers' Choice winners: Your wine country favorite</h1>
                     </div>
 
-                    {/* ---------------------- */}
 
                     <button className="reader-bottom">
                         <Image src="/section-image/galery2.png" style={{
@@ -747,7 +714,6 @@ export default function Home() {
 
                 </div>
 
-                {/* ------------------------------------- */}
 
                 <div className="career-container">
                     <h2 style={{
@@ -783,7 +749,6 @@ export default function Home() {
                         color: '#939699'
                     }}>Oct 15</p>
                 </div>
-                {/* --------------------------------------- */}
 
                 <div className="career-coffe">
                     <h1 style={{
