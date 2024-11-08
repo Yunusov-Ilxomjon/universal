@@ -278,7 +278,7 @@ button:hover {
 
 }
 
-news {
+.news {
   width: 100%;
   height: 1590px;
   background-color: #EDEFF0;
@@ -309,7 +309,7 @@ news {
   transform: scale(1.05);
   transition: all 1.2s;
   border: none;
-  border: none;
+
 }
 
 
@@ -340,6 +340,7 @@ button {
   height: 770px;
   background-color: white;
   border-radius: 20px;
+
 }
 
 
