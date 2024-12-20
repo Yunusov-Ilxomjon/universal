@@ -23,6 +23,11 @@
     gap: 25px;
     /* padding: 60px 308px; */
 
+    h1 {
+        font-size: 40px;
+        color: #262D33;
+    }
+
 }
 
 input {
@@ -136,6 +141,10 @@ a:hover {
     align-items: center;
     gap: 30px;
     /* border: 1px solid red; */
+    ul {
+        display: flex;
+        gap: 30px;
+    }
 }
 
 .jnv {
@@ -147,31 +156,37 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    h1 {
+        font-size: 20px;
+    }
+
+   
 }
 
-.jnv:hover{
+.jnv:hover {
     transform: scale(1.1);
     transition: all 1s;
     cursor: pointer;
     background-color: rgb(49, 219, 19);
 }
 
-a h3{
+a h3 {
     font-size: 14px;
     color: black;
 }
 
-li a :hover{
-    color:#4592FF;
+li a :hover {
+    color: #4592FF;
 
 }
 
-li{
+li {
     list-style: none;
- 
+
 }
 
-.footer-contact-right{
+.footer-contact-right {
     width: 620px;
     height: 110px;
     display: flex;
@@ -187,4 +202,5 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }

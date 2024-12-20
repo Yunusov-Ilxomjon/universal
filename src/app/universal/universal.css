@@ -48,6 +48,10 @@
     align-items: center;
     gap: 30px;
 
+    a{
+        color: #FFFFFF;
+        font-size: 14px;
+    }
 
 }
 

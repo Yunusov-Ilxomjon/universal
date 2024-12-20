@@ -1,16 +1,13 @@
 import React from "react"
-import "./universal.css"
 import Link from "next/link"
 import Image from "next/image"
+import "./universal.css"
 
 const Universal = () => {
   return (
     <div className="universal-container">
 
-
-
       <div className="moto-container">
-
         <div className="destination">
           <Link style={{
             color: "#4592FF",
@@ -55,18 +52,18 @@ const Universal = () => {
 
         <div className="share">
 
-          <img width={15} height={15} src="/universal-image/time.png" alt="" />
+          <Image width={15} height={15} src="/universal-image/time.png" alt="" />
           <p>Aug 6, 10:23 pm</p>
 
-          <img width={15} height={15} src="/universal-image/heart.png" alt="" />
+          <Image width={15} height={15} src="/universal-image/heart.png" alt="" />
           <p>800</p>
 
-          <img width={15} height={15} src="/universal-image/comment.png" alt="" />
+          <Image width={15} height={15} src="/universal-image/comment.png" alt="" />
           <p>19</p>
 
 
           <button className="share-btn">
-            <img width={20} height={20} src="/universal-image/share.png" alt="" />142 Shares
+            <Image width={20} height={20} src="/universal-image/share.png" alt="" />142 Shares
           </button>
         </div>
       </div>
@@ -78,10 +75,10 @@ const Universal = () => {
         }}><span class="dropcap">M</span>any geographers are trained in toponymy and cartology, this is not their main preoccupation. Geographers study the space and the temporal database distribution of phenomena, processes, and features as well as the interaction of humans and their environment. Because space and place affect a variety of topics, such as economics, health, climate, plants and animals, geography is highly interdisciplinary. The interdisciplinary nature of the geographical approach depends on an attentiveness to the relationship between physical and human phenomena and its spatial patterns.</p>
 
         <div className="text-card">
-          <img style={{
+          <Image style={{
             borderRadius: "50%",
             marginTop: "35px"
-          }} src="https://avatars.mds.yandex.net/get-shedevrum/11552302/img_013df3a2f68c11eebb105e708ac16c58/orig" width={90} alt="" />
+          }} src="/univercal-image/woman3.wepb" width={90} height={90} alt="" />
           <h1 style={{
             fontSize: "20px",
             color: "#262D33",
@@ -99,9 +96,9 @@ const Universal = () => {
           }}>82 articles</h2>
 
           <div className="messenjer">
-            <Link href="#"><img src="/footer-image/facebook.png" alt="" width={40} /></Link>
-            <Link href="#"><img src="/footer-image/twitter.png" alt="" width={40} /></Link>
-            <Link href="#"><img src="/footer-image/instagram.png" alt="" width={40} /></Link>
+            <Link href="#"><Image src="/footer-image/facebook.png" alt="" width={40} /></Link>
+            <Link href="#"><Image src="/footer-image/twitter.png" alt="" width={40} /></Link>
+            <Link href="#"><Image src="/footer-image/instagram.png" alt="" width={40} /></Link>
           </div>
 
           <button style={{
@@ -148,7 +145,7 @@ const Universal = () => {
 
 
       <div className="universal-image">
-        <img width={1140} height={555} src="https://geographical.co.uk/wp-content/uploads/somalaya-mountain-range-title.jpg" alt="" />
+        <Image width={1140} height={555} src="https://geographical.co.uk/wp-content/uploads/somalaya-mountain-range-title.jpg" alt="" />
 
         <div style={{
           display: "flex",
@@ -173,7 +170,7 @@ const Universal = () => {
             alignItems: "center",
             gap: "15px",
           }}>
-            <img style={{
+            <Image style={{
               borderRadius: "50%",
             }} src="https://t3.ftcdn.net/jpg/00/23/33/58/360_F_23335866_HAA1QKdrtHEudzs3mQryoHYyBxM4YjFg.jpg" alt="" width={45} height={45} />
             <h3 style={{
@@ -226,7 +223,7 @@ const Universal = () => {
             fontSize: "20px",
             color: "#262D33",
           }}>Material on Theme</h1>
-          <img style={{
+          <Image style={{
             borderRadius: "10px",
             marginTop: "20px"
           }} src="https://naked-science.ru/wp-content/uploads/2016/05/field_image_5670291793_743c19e30f_b.jpg" width={263} height={180} />
@@ -242,13 +239,13 @@ const Universal = () => {
           }}>In the essays "Overstating the Arab State", by Nazih Ayubi, and "Is Jordan Palestine?", by Raphael Israel, the authors deal with the psychologically fragmented postcolonial identity.</p>
 
           <div className="wievs">
-            <img src="/universal-image/eye.png" width={15} height={15} />
+            <Image src="/universal-image/eye.png" width={15} height={15} />
             <p style={{
               fontSize: "12px",
               color: "#939699",
             }}>1.623</p>
 
-            <img style={{
+            <Image style={{
               marginLeft: "15px",
             }} src="/universal-image/comment.png" width={15} height={15} />
             <p style={{
@@ -341,19 +338,19 @@ const Universal = () => {
         }}>Show Your Support</h1>
         <div className="support-btn">
           <button className="sup-btn1">
-            <img src="/universal-image/heart.png" width={20} />
+            <Image src="/universal-image/heart.png" width={20} />
             <h4>Like it</h4>
             <p>42</p>
           </button>
 
           <button className="sup-btn2">
-            <img src="/footer-image/facebook.png" width={20} />
+            <Image src="/footer-image/facebook.png" width={20} />
             <h4>Like it</h4>
             <p>42</p>
           </button>
 
           <button className="sup-btn3">
-            <img src="/footer-image/twitter.png" width={20} />
+            <Image src="/footer-image/twitter.png" width={20} />
             <h4>Like it</h4>
             <p>42</p>
           </button>
@@ -369,7 +366,7 @@ const Universal = () => {
       <div className="universal-images">
 
         <div className="universal-images-card">
-          <img style={{
+          <Image style={{
             width: "265px",
             height: "180px",
             borderRadius: "10px",
@@ -382,13 +379,13 @@ const Universal = () => {
             }}>An Evangelist of Singaporean Food Has a New Pulpit</h2>
 
           <div className="wievs2">
-            <img src="/universal-image/eye.png" width={15} height={15} />
+            <Image src="/universal-image/eye.png" width={15} height={15} />
             <p style={{
               fontSize: "12px",
               color: "#939699",
             }}>1.623</p>
 
-            <img style={{
+            <Image style={{
               marginLeft: "15px",
             }} src="/universal-image/comment.png" width={15} height={15} />
             <p style={{
@@ -401,7 +398,7 @@ const Universal = () => {
         </div>
 
         <div className="universal-images-card">
-          <img style={{
+          <Image style={{
             width: "265px",
             height: "180px",
             borderRadius: "10px",
@@ -414,13 +411,13 @@ const Universal = () => {
             }}>At the Mouth of the Mississippi, a Weird and Fragile Beauty</h2>
 
           <div className="wievs2">
-            <img src="/universal-image/eye.png" width={15} height={15} />
+            <Image src="/universal-image/eye.png" width={15} height={15} />
             <p style={{
               fontSize: "12px",
               color: "#939699",
             }}>1.623</p>
 
-            <img style={{
+            <Image style={{
               marginLeft: "15px",
             }} src="/universal-image/comment.png" width={15} height={15} />
             <p style={{
@@ -433,7 +430,7 @@ const Universal = () => {
         </div>
 
         <div className="universal-images-card">
-          <img style={{
+          <Image style={{
             width: "265px",
             height: "180px",
             borderRadius: "10px",
@@ -446,13 +443,13 @@ const Universal = () => {
             }}>Chattanooga Is Changing. But Its Charms Remain.</h2>
 
           <div className="wievs2">
-            <img src="/universal-image/eye.png" width={15} height={15} />
+            <Image src="/universal-image/eye.png" width={15} height={15} />
             <p style={{
               fontSize: "12px",
               color: "#939699",
             }}>1.623</p>
 
-            <img style={{
+            <Image style={{
               marginLeft: "15px",
             }} src="/universal-image/comment.png" width={15} height={15} />
             <p style={{
@@ -465,7 +462,7 @@ const Universal = () => {
         </div>
 
         <div className="universal-images-card">
-          <img style={{
+          <Image style={{
             width: "265px",
             height: "180px",
             borderRadius: "10px",
@@ -478,13 +475,13 @@ const Universal = () => {
             }}>How to Get by in a Country if You Don"t Know the Language</h2>
 
           <div className="wievs2">
-            <img src="/universal-image/eye.png" width={15} height={15} />
+            <Image src="/universal-image/eye.png" width={15} height={15} />
             <p style={{
               fontSize: "12px",
               color: "#939699",
             }}>1.623</p>
 
-            <img style={{
+            <Image style={{
               marginLeft: "15px",
             }} src="/universal-image/comment.png" width={15} height={15} />
             <p style={{
@@ -525,7 +522,7 @@ const Universal = () => {
             marginLeft: "30px",
             gap: "10px",
           }}>
-            <img style={{
+            <Image style={{
               width: "20px"
             }} src="/universal-image/pencil.png" alt="" />
             Add comment
@@ -536,7 +533,7 @@ const Universal = () => {
         <div className="people-comments">
 
           <div className="ryanhall-image">
-            <img style={{
+            <Image style={{
               width: "75px",
               height: "75px",
               borderRadius: "50%",
@@ -565,17 +562,17 @@ const Universal = () => {
             </div>
 
             <div className="replay">
-              <img src="/universal-image/comment.png" width={20} height={20} />
+              <Image src="/universal-image/comment.png" width={20} height={20} />
               <h3 style={{
                 fontSize: "12px",
                 color: "#262D33",
               }}>Replay</h3>
-              <img src="/universal-image/like.png" width={20} height={20} />
+              <Image src="/universal-image/like.png" width={20} height={20} />
               <h3 style={{
                 fontSize: "12px",
                 color: "#3DC47E",
               }}>+10</h3>
-              <img src="/universal-image/like.png" width={20} height={20} />
+              <Image src="/universal-image/like.png" width={20} height={20} />
 
             </div>
 
@@ -590,7 +587,7 @@ const Universal = () => {
         }} className="people-comments">
 
           <div className="ryanhall-image">
-            <img style={{
+            <Image style={{
               width: "75px",
               height: "75px",
               borderRadius: "50%",
@@ -619,17 +616,17 @@ const Universal = () => {
             </div>
 
             <div className="replay">
-              <img src="/universal-image/comment.png" width={20} height={20} />
+              <Image src="/universal-image/comment.png" width={20} height={20} />
               <h3 style={{
                 fontSize: "12px",
                 color: "#262D33",
               }}>Replay</h3>
-              <img src="/universal-image/like.png" width={20} height={20} />
+              <Image src="/universal-image/like.png" width={20} height={20} />
               <h3 style={{
                 fontSize: "12px",
                 color: "#3DC47E",
               }}>+10</h3>
-              <img src="/universal-image/like.png" width={20} height={20} />
+              <Image src="/universal-image/like.png" width={20} height={20} />
 
             </div>
 
@@ -641,7 +638,7 @@ const Universal = () => {
         <div className="people-comments">
 
           <div className="ryanhall-image">
-            <img style={{
+            <Image style={{
               width: "75px",
               height: "75px",
               borderRadius: "50%",
@@ -670,17 +667,17 @@ const Universal = () => {
             </div>
 
             <div className="replay">
-              <img src="/universal-image/comment.png" width={20} height={20} />
+              <Image src="/universal-image/comment.png" width={20} height={20} />
               <h3 style={{
                 fontSize: "12px",
                 color: "#262D33",
               }}>Replay</h3>
-              <img src="/universal-image/like.png" width={20} height={20} />
+              <Image src="/universal-image/like.png" width={20} height={20} />
               <h3 style={{
                 fontSize: "12px",
                 color: "#3DC47E",
               }}>+10</h3>
-              <img src="/universal-image/like.png" width={20} height={20} />
+              <Image src="/universal-image/like.png" width={20} height={20} />
 
             </div>
 
@@ -693,7 +690,7 @@ const Universal = () => {
         <div className="people-comments">
 
           <div className="ryanhall-image">
-            <img style={{
+            <Image style={{
               width: "75px",
               height: "75px",
               borderRadius: "50%",
@@ -722,17 +719,17 @@ const Universal = () => {
             </div>
 
             <div className="replay">
-              <img src="/universal-image/comment.png" width={20} height={20} />
+              <Image src="/universal-image/comment.png" width={20} height={20} />
               <h3 style={{
                 fontSize: "12px",
                 color: "#262D33",
               }}>Replay</h3>
-              <img src="/universal-image/like.png" width={20} height={20} />
+              <Image src="/universal-image/like.png" width={20} height={20} />
               <h3 style={{
                 fontSize: "12px",
                 color: "#3DC47E",
               }}>+10</h3>
-              <img src="/universal-image/like.png" width={20} height={20} />
+              <Image src="/universal-image/like.png" width={20} height={20} />
 
             </div>
 
@@ -752,7 +749,7 @@ const Universal = () => {
       <div className="think">
         <div className="think-page">
           <div className="think-image">
-            <img style={{
+            <Image style={{
               borderRadius: "50%",
               marginTop: "70px"
             }} src="/universal-image/woman1.webp" width={75} />

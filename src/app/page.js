@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import styles from "./page.module.css";
 import Link from "next/link";
 
@@ -8,44 +9,31 @@ export default function Home() {
         <div className="home-container">
 
             <div className="home-container-cards">
-
                 <div className="home-cards">
-
                     <div className="card-parts">
-                        <h1 style={{ width: "155px", fontSize: "16px", color: "white" }}>25 Songs That Tell Us Where Music Is Going</h1>
-                        <Image style={{
-                            marginRight: "25px"
-                        }} src="/section-image/guitar.jpg" alt="" width={65} height={65} />
+                        <h1>25 Songs That Tell Us Where Music Is Going</h1>
+                        <Image src="/section-image/guitar.jpg" width={65} height={65} />
                     </div>
 
                     <div className="card-parts">
-                        <h1 style={{ width: "155px", fontSize: "16px", color: "white" }}>These Ancient Assassins Eat Their Own Kind</h1>
-                        <Image style={{
-                            marginRight: "25px"
-                        }} src="/section-image/kapalak.jpg" alt="" width={65} height={65} />
+                        <h1 >These Ancient Assassins Eat Their Own Kind</h1>
+                        <Image src="/section-image/kapalak.jpg" width={65} height={65} />
                     </div>
 
                     <div className="card-parts">
-                        <h1 style={{ width: "155px", fontSize: "16px", color: "white" }}>How Do You Teach People to Love Difficult Music?</h1>
-                        <Image style={{
-                            marginRight: "25px"
-                        }} src="/section-image/guitar.jpg" alt="" width={65} height={65} />
+                        <h1>How Do You Teach People to Love Difficult Music?</h1>
+                        <Image src="/section-image/guitar.jpg" width={65} height={65} />
                     </div>
 
                     <div className="card-parts">
-                        <h1 style={{ width: "155px", fontSize: "16px", color: "white" }}>International Soccer"s Man of Mystery</h1>
-                        <Image style={{
-                            marginRight: "25px"
-                        }} src="/section-image/stadion.jpg" alt="" width={65} height={65} />
+                        <h1 >International Soccer"s Man of Mystery</h1>
+                        <Image src="/section-image/stadion.jpg" width={65} height={65} />
                     </div>
-
                 </div>
-
             </div>
 
 
             <div className="home-container-video"></div>
-
             <div className="home-video">
                 <div className="video-card"></div>
                 <div className="text-card"></div>
@@ -53,32 +41,26 @@ export default function Home() {
 
 
             <div className="cars-info">
-
                 <div className="cars-info-left">
                     <div className="cars-card">
                         <div className="cars-card-top">
-                            <h3 style={{ color: "gray", fontSize: "12px" }}>CARS</h3>
-                            <h1 style={{ width: "235px", fontSize: "25px" }}>The joy of replicas: A $ 5 million car <br></br> for $ 50,000</h1>
-                            <p style={{ width: "235px", color: "gray", fontSize: "14px" }}>Here"s the text from the image you provided:
+                            <h3>CARS</h3>
+                            <h1>The joy of replicas: A $ 5 million car <br></br> for $ 50,000</h1>
+                            <p>Here"s the text from the image you provided:
                                 The 31-year-old self-taught engineer and former
                                 amateur racer spends his days building artful
                                 recreations of one of most iconic sports cars.</p>
-                            <Image src="/section-image/cars.png" alt="" width={280} height={292}
-                                style={{
-                                    position: "absolute",
-                                    left: "273px",
-                                    bottom: "50px"
-                                }} />
+                            <Image src="/section-image/cars.png" width={280} height={292}/>
                         </div>
 
 
                         <div className="cars-card-bottom">
-                            <Image src="/section-image/girl.webp" alt="" width={30} height={30}
+                            <Image src="/section-image/girl.webp" width={30} height={30}
                                 style={{
                                     borderRadius: "50px"
                                 }} />
-                            <h2 style={{ fontSize: "14px" }}>Jessica Miller:</h2>
-                            <p style={{ color: "gray", fontSize: "14px" }}>Even as the ride-hailing
+                            <h2>Jessica Miller:</h2>
+                            <p>Even as the ride-hailing
                                 service"s future remem...
                             </p>
                             <button
@@ -87,7 +69,7 @@ export default function Home() {
                                     backgroundColor: "transparent",
                                     cursor: "pointer"
                                 }} >
-                                <Image src="/section-image/comment.png" alt="" width={15} height={15} />
+                                <Image src="/section-image/comment.png" width={15} height={15} />
                             </button>
                             <p style={{ color: "gray", fontSize: "14px" }}>342</p>
                         </div>
@@ -95,7 +77,7 @@ export default function Home() {
                     </div>
 
                     <div className="cats-card">
-                        <Image src="/section-image/cat.jpg" alt="" style={{ borderTopRightRadius: "10px", borderTopLeftRadius: "10px" }} width={263} height={275} />
+                        <Image src="/section-image/cat.jpg" style={{ borderTopRightRadius: "10px", borderTopLeftRadius: "10px" }} width={263} height={275} />
                         <h2 style={{
                             fontSize: "16px",
                             margin: "15px 25px"
@@ -174,7 +156,7 @@ export default function Home() {
                         <h2 style={{ color: "white", fontSize: "20px" }}>
                             Architecture is the thoughtful making of space
                         </h2>
-                        <Image src="/section-image/cardboy1.jpg" alt=""
+                        <Image src="/section-image/cardboy1.jpg"
                             style={{
                                 position: "absolute",
                                 top: "130px",
@@ -191,7 +173,7 @@ export default function Home() {
                         <h2 style={{ color: "white", fontSize: "20px" }}>
                             The details are not the details. they make the design.
                         </h2>
-                        <Image src="/section-image/cardgirl1.jpg" alt=""
+                        <Image src="/section-image/cardgirl1.jpg"
                             style={{
                                 position: "absolute",
                                 top: "130px",
@@ -210,7 +192,7 @@ export default function Home() {
                         <h2 style={{ color: "white", fontSize: "20px" }}>
                             Live life to the fullest, and focus on the positive
                         </h2>
-                        <Image src="/section-image/cardgirl1.jpg" alt=""
+                        <Image src="/section-image/cardgirl1.jpg"
                             style={{
                                 position: "absolute",
                                 top: "130px",
@@ -270,7 +252,7 @@ export default function Home() {
                 <div className="news-card-left">
 
                     <div className="news-cards">
-                        <Image src="/section-image/risehand.jpg" alt="" width={336} height={195} />
+                        <Image src="/section-image/risehand.jpg" width={336} height={195} />
                         <div className="news-cards-text">
                             <div className="flights" style={{
                                 width: "100%",
@@ -282,7 +264,7 @@ export default function Home() {
                             }}>
                                 <Link href="#">FLIGHTS</Link>
                                 <button style={{ border: "none", cursor: "pointer" }}>
-                                    <Image src="/section-image/bookmark.png" alt="" width={20} height={20} />
+                                    <Image src="/section-image/bookmark.png" width={20} height={20} />
                                 </button>
                             </div>
 
@@ -299,10 +281,10 @@ export default function Home() {
 
                             <div className="news-comments">
                                 <p style={{ color: "12px", color: "gray" }}>Aug 6</p>
-                                <button><Image src="/section-image/comment.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/comment.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>342</p>
-                                <button><Image src="/section-image/heart.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/heart.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>830</p>
 
@@ -318,7 +300,7 @@ export default function Home() {
 
 
                     <div className="news-cards">
-                        <Image src="/section-image/bread.jpg" alt="" width={336} height={195} />
+                        <Image src="/section-image/bread.jpg" width={336} height={195} />
                         <div className="news-cards-text">
                             <div className="flights" style={{
                                 width: "100%",
@@ -330,7 +312,7 @@ export default function Home() {
                             }}>
                                 <Link href="#">FOOD</Link>
                                 <button style={{ border: "none", cursor: "pointer" }}>
-                                    <Image src="/section-image/bookmark.png" alt="" width={20} height={20} />
+                                    <Image src="/section-image/bookmark.png" width={20} height={20} />
                                 </button>
                             </div>
 
@@ -347,10 +329,10 @@ export default function Home() {
 
                             <div className="news-comments">
                                 <p style={{ color: "12px", color: "gray" }}>Aug 6</p>
-                                <button><Image src="/section-image/comment.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/comment.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>342</p>
-                                <button><Image src="/section-image/heart.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/heart.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>830</p>
 
@@ -362,7 +344,7 @@ export default function Home() {
 
 
                     <div className="news-cards">
-                        <Image src="/section-image/flower2.jpg" alt="" width={336} height={195} />
+                        <Image src="/section-image/flower2.jpg" width={336} height={195} />
                         <div className="news-cards-text">
                             <div className="flights" style={{
                                 width: "100%",
@@ -374,7 +356,7 @@ export default function Home() {
                             }}>
                                 <Link href="#">SCIENCE</Link>
                                 <button style={{ border: "none", cursor: "pointer" }}>
-                                    <Image src="/section-image/bookmark.png" alt="" width={20} height={20} />
+                                    <Image src="/section-image/bookmark.png" width={20} height={20} />
                                 </button>
                             </div>
 
@@ -391,10 +373,10 @@ export default function Home() {
 
                             <div className="news-comments">
                                 <p style={{ color: "12px", color: "gray" }}>Aug 6</p>
-                                <button><Image src="/section-image/comment.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/comment.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>342</p>
-                                <button><Image src="/section-image/heart.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/heart.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>830</p>
 
@@ -406,7 +388,7 @@ export default function Home() {
 
 
                     <div className="news-cards">
-                        <Image src="/section-image/swim.jpg" alt="" width={336} height={195} />
+                        <Image src="/section-image/swim.jpg" width={336} height={195} />
                         <div className="news-cards-text">
                             <div className="flights" style={{
                                 width: "100%",
@@ -418,7 +400,7 @@ export default function Home() {
                             }}>
                                 <Link href="#">HEALTH</Link>
                                 <button style={{ border: "none", cursor: "pointer" }}>
-                                    <Image src="/section-image/bookmark.png" alt="" width={20} height={20} />
+                                    <Image src="/section-image/bookmark.png" width={20} height={20} />
                                 </button>
                             </div>
 
@@ -435,10 +417,10 @@ export default function Home() {
 
                             <div className="news-comments">
                                 <p style={{ color: "12px", color: "gray" }}>Aug 6</p>
-                                <button><Image src="/section-image/comment.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/comment.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>342</p>
-                                <button><Image src="/section-image/heart.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/heart.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>830</p>
 
@@ -450,7 +432,7 @@ export default function Home() {
 
 
                     <div className="news-cards">
-                        <Image src="/section-image/tree.jpg" alt="" width={336} height={195} />
+                        <Image src="/section-image/tree.jpg" width={336} height={195} />
                         <div className="news-cards-text">
                             <div className="flights" style={{
                                 width: "100%",
@@ -462,7 +444,7 @@ export default function Home() {
                             }}>
                                 <Link href="#">SCIENCE</Link>
                                 <button style={{ border: "none", cursor: "pointer" }}>
-                                    <Image src="/section-image/bookmark.png" alt="" width={20} height={20} />
+                                    <Image src="/section-image/bookmark.png" width={20} height={20} />
                                 </button>
                             </div>
 
@@ -479,10 +461,10 @@ export default function Home() {
 
                             <div className="news-comments">
                                 <p style={{ color: "12px", color: "gray" }}>Aug 6</p>
-                                <button><Image src="/section-image/comment.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/comment.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>342</p>
-                                <button><Image src="/section-image/heart.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/heart.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>830</p>
 
@@ -495,7 +477,7 @@ export default function Home() {
 
 
                     <div className="news-cards">
-                        <Image src="/section-image/universitet.jpg" alt="" width={336} height={195} />
+                        <Image src="/section-image/universitet.jpg" width={336} height={195} />
                         <div className="news-cards-text">
                             <div className="flights" style={{
                                 width: "100%",
@@ -507,7 +489,7 @@ export default function Home() {
                             }}>
                                 <Link href="#">ART & DESIGN</Link>
                                 <button style={{ border: "none", cursor: "pointer" }}>
-                                    <Image src="/section-image/bookmark.png" alt="" width={20} height={20} />
+                                    <Image src="/section-image/bookmark.png" width={20} height={20} />
                                 </button>
                             </div>
 
@@ -524,10 +506,10 @@ export default function Home() {
 
                             <div className="news-comments">
                                 <p style={{ color: "12px", color: "gray" }}>Aug 6</p>
-                                <button><Image src="/section-image/comment.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/comment.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>342</p>
-                                <button><Image src="/section-image/heart.png" alt="" width={15} height={15} />
+                                <button><Image src="/section-image/heart.png" width={15} height={15} />
                                 </button>
                                 <p style={{ color: "12px", color: "gray" }}>830</p>
 
@@ -550,7 +532,7 @@ export default function Home() {
 
 
                     <div className="recommend-cards">
-                        <Image src="/section-image/reccomend1.jpg" alt="" width={60} height={60} />
+                        <Image src="/section-image/reccomend1.jpg" width={60} height={60} />
                         <div className="recommend-text">
                             <h1 style={{
                                 fontSize: "14px",
@@ -566,7 +548,7 @@ export default function Home() {
 
 
                     <div className="recommend-cards">
-                        <Image src="/section-image/reccomend2.jpg" alt="" width={60} height={60} />
+                        <Image src="/section-image/reccomend2.jpg" width={60} height={60} />
                         <div className="recommend-text">
                             <h1 style={{
                                 fontSize: "14px",
@@ -582,7 +564,7 @@ export default function Home() {
 
 
                     <div className="recommend-cards">
-                        <Image src="/section-image/reccomend3.jpg" alt="" width={60} height={60} />
+                        <Image src="/section-image/reccomend3.jpg" width={60} height={60} />
                         <div className="recommend-text">
                             <h1 style={{
                                 fontSize: "14px",
@@ -597,7 +579,7 @@ export default function Home() {
 
 
                     <div className="recommend-cards">
-                        <Image src="/section-image/reccomend4.jpg" alt="" width={60} height={60} />
+                        <Image src="/section-image/reccomend4.jpg" width={60} height={60} />
                         <div className="recommend-text">
                             <h1 style={{
                                 fontSize: "14px",
@@ -612,7 +594,7 @@ export default function Home() {
 
 
                     <div className="recommend-cards">
-                        <Image src="/section-image/reccomend5.jpg" alt="" width={60} height={60} />
+                        <Image src="/section-image/reccomend5.jpg" width={60} height={60} />
                         <div className="recommend-text">
                             <h1 style={{
                                 fontSize: "14px",
@@ -628,7 +610,7 @@ export default function Home() {
 
 
                     <div className="recommend-cards">
-                        <Image src="/section-image/reccomend6.jpg" alt="" width={60} height={60} />
+                        <Image src="/section-image/reccomend6.jpg" width={60} height={60} />
                         <div className="recommend-text">
                             <h1 style={{
                                 fontSize: "14px",
@@ -644,7 +626,7 @@ export default function Home() {
 
 
                     <div className="recommend-cards">
-                        <Image src="/section-image/reccomend7.jpg" alt="" width={60} height={60} />
+                        <Image src="/section-image/reccomend7.jpg" width={60} height={60} />
                         <div className="recommend-text">
                             <h1 style={{
                                 fontSize: "14px",
